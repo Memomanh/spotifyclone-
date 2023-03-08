@@ -60,7 +60,7 @@ nav ul li{
    text-align: right;
    
 }
-.container.imgs{
+.imgs{
     width: 500px;
     height: 500px;
 }
@@ -68,10 +68,11 @@ nav ul li{
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 130px;
+    height: 80px;
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
@@ -98,7 +99,7 @@ nav ul li{
 
 .songItemContainer{
     margin-top: 60px;
-    display: contents;
+    margin-left: 200px;
     justify-content: center;
 }
 
